@@ -19,4 +19,19 @@ Python code for optimization of the model using three approaches
 Callback checkpoints for the optimization of the deep learning model; it saves the model's weights every 5 epochs.
 
 ## Accuracy of the Deep Learning model
-Slightly below 75%.
+72.34%.
+
+## Summary
+- What variable(s) are considered the target(s) for your model?
+'IS_SUCCESSFUL' column.
+- What variable(s) are considered to be the features for your model?
+clean_application_df without 'IS_SUCCESSFUL' column.
+- What variable(s) are neither targets nor features, and should be removed from the input data?
+'EIN' and 'NAME'columns.
+- How many neurons, layers, and activation functions did you select for your neural network model, and why?
+Two hidden layers. First layer has 8 neurons with relu activation function. Second layer has 5 neurons with sigma activation function.
+- Were you able to achieve the target model performance?
+The model reached 72.34% accuracy.
+- What steps did you take to try and increase model performance?
+Noisy variables were formatted for binning. Additional hidden layer was added. Acivation function of output layer was changed for optimization from sigma to relu. This approach did not improve the accuracy of the model.
+
