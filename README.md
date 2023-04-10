@@ -11,9 +11,12 @@ Callback checkpoints that save the model's weights every 5 epochs.
 ## Optimization of the Deep Learning Model
 - [AlphabetSoupCharity_optimization](https://github.com/MSF2141/Neural_Network_Charity_Analysis/blob/6431928dd7091aab17bc3d5fdb8b7feabcda2ba2/Optimization/AlphabetSoupCharity_optimization.ipynb)
 Python code for optimization of the model using three approaches
- - Noisy variables are formatted for binning
- - Additional hidden layers are added
- - Acivation function of output layer is changed for optimization
+  - Noisy variables are formatted for binning
+  - Additional hidden layers are added
+  - Acivation function of output layer is changed for optimization
+
+- [AlphabetSoupCharity_optimization](https://github.com/MSF2141/Neural_Network_Charity_Analysis/blob/1e3e0490d6dfc4c9033f4bf3dddebed9b29a7202/Optimization/AlphabetSoupCharity_optimization.ipynb)
+Callback checkpoints for the optimization of the deep learning model; it saves the model's weights every 5 epochs.
 
 ## Accuracy of the Deep Learning model
 Slightly below 75%.
