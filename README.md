@@ -33,5 +33,5 @@ Two hidden layers. First layer has 8 neurons with relu activation function. Seco
 - Were you able to achieve the target model performance?
 The model reached 72.34% accuracy.
 - What steps did you take to try and increase model performance?
-Noisy variables were formatted for binning. Additional hidden layer was added. Acivation function of output layer was changed for optimization from sigma to relu. This approach did not improve the accuracy of the model.
+Noisy variable was formatted for binning. Additional hidden layer was added. Acivation function of output layer was changed for optimization from sigma to relu. This approach did not improve the accuracy of the model.
 
