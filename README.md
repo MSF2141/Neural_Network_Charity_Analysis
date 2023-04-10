@@ -7,3 +7,7 @@ Code for a deep learning model, a binary classification model, that can predict 
 
 - [AlphabetSoupCharity](https://github.com/MSF2141/Neural_Network_Charity_Analysis/blob/ad4cef78fb844eb4c1ec3c05d42f55596d25acd7/AlphabetSoupCharity.h5)
 Callback checkpoints that save the model's weights every 5 epochs.
+
+## Optimization of the Deep Learning Model
+- [AlphabetSoupCharity_optimization](https://github.com/MSF2141/Neural_Network_Charity_Analysis/blob/6431928dd7091aab17bc3d5fdb8b7feabcda2ba2/Optimization/AlphabetSoupCharity_optimization.ipynb)
+
